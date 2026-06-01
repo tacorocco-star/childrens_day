@@ -89,21 +89,21 @@ body {
 }
 
 #letter-title {
-    font-size: clamp(0.95rem, 4.2vw, 1.875rem);
-    line-height: 1.2;
+    font-size: clamp(0.9rem, 3.8vw, 1.65rem);
+    line-height: 1.15;
     margin: 0;
-    max-width: 85%;
+    max-width: 78%;
 }
 
 .letter-image {
     display: block;
     width: auto;
     height: auto;
-    max-width: min(45%, 140px);
-    max-height: clamp(3rem, 12vh, 5.5rem);
+    max-width: min(90%, 280px);
+    max-height: clamp(6rem, 24vh, 11rem);
     object-fit: contain;
     object-position: center;
-    margin: clamp(2px, 0.5vh, 6px) 0;
+    margin: clamp(4px, 1vh, 10px) 0;
 }
 
 .letter-caption {
@@ -137,8 +137,8 @@ body {
     }
 
     .letter-image {
-        max-width: min(40%, 120px);
-        max-height: clamp(2.5rem, 18vh, 4.5rem);
+        max-width: min(80%, 240px);
+        max-height: clamp(5rem, 36vh, 9rem);
     }
 
     .letter-caption {
