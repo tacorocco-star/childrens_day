@@ -230,3 +230,15 @@ body {
         font-size: clamp(0.8rem, 2.8vh, 1.1rem);
     }
 }
+
+@media (min-width: 1024px) {
+    .image-frame {
+        max-width: min(88vw, 920px);
+        padding: clamp(14px, 1.5vw, 24px);
+    }
+
+    .letter-image {
+        max-width: min(calc(82vw - 3rem), 860px);
+        max-height: min(72dvh, calc(100dvh - 9rem), 920px);
+    }
+}
